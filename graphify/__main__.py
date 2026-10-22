@@ -449,6 +449,7 @@ def _refresh_v1_opencode_plugins() -> None:
             return False if _opencode_config_names_plugin(directory) else None
 
         stale = pending()
+        # komentari just for educational purposes
         if stale is None:
             continue
         if stale:
